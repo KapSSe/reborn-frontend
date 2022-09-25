@@ -1,0 +1,55 @@
+.navbar {
+    margin: 51px 40px;
+ }
+ 
+.navbar .navbar__logo {
+    display: block;
+    width: 105px;
+    height: 105px;
+    padding-right: 45px;
+}
+
+.navbar .navbar__menu-item {
+    position: relative;
+    padding: 22px;
+    text-transform: none;
+    font-family: 'MontserratRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 7px;
+    opacity: 0.6;
+    transition: opacity .478s ease;
+}
+
+.navbar .navbar__menu-item:hover {
+    opacity: 1;
+    transition: opacity .775s ease;
+    text-decoration: none;
+}
+
+.navbar .navbar__menu-item_active {
+    cursor: default;
+    opacity: 1;
+}
+
+.navbar .navbar__logo {
+    display: block;
+    width: 105px;
+    height: 105px;
+    padding-right: 45px;
+}
+
+.navbar .navbar__right {
+    list-style: none;
+}
+
+.navbar .navbar__right button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'MontserratRegular';
+    font-size: 22px;
+    line-height: 27px;
+}

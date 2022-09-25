@@ -1,0 +1,26 @@
+.about {
+    background: #015BBB;
+}
+
+.about .about__content {
+    padding-top: 65px;
+    padding-bottom: 79px;
+}
+
+.about .about__title {
+    margin-bottom: 45px;
+    font-family: KyivTypeSans;
+    font-size: 68px;
+    line-height: 82px;
+    text-align: left;
+    text-transform: uppercase;
+    color:#FFD401;
+}
+
+.about .about__description {
+    font-family: MontserratRegular;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}

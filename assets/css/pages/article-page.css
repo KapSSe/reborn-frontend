@@ -1,0 +1,82 @@
+.article-page .donations .donations__content {
+    padding-top: 23px;
+}
+
+.article-page .navbar__center, .article-page .navbar__right, .article-page .navbar__menu-item {
+    color: black;
+}
+
+.article-page .navbar .navbar__menu-item_active { 
+    background: black;
+    color: white;
+}
+
+.article-page .article-page__content {
+    margin-top:37px;
+    position: relative;
+}
+
+.article-page .article-page-item__wrapper {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.article-page .article-page-item__wrapper, .article-page-item__bg > div {
+    border-radius: 20px;
+}
+
+.article-page .article-page-item__bg > div {
+    height: 700px;
+}
+
+.article-page .article-page-item__bg > div > img {
+    object-fit: cover !important;
+}
+
+.article-page .article-page-item__filter {
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.article-page .article-page-item__content {
+    position: absolute;
+    z-index: 3;
+    transform: translateY(-100%);
+    padding: 58px 53px;
+    width: calc(100% - 106px);
+}
+
+.article-page .article-page-item__title {
+    margin-bottom: 10px;
+    font-family: 'KyivTypeSans';
+    font-size: 68px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+
+.article-page .article-page-item__desc {
+    font-family: 'MontserratRegular';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF; 
+}
+
+.article-page-article {
+    margin-top: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-page-article p {
+    margin: 0px;
+    font-family: 'MontserratRegular';
+    font-size: 20px;
+    line-height: 28px;
+    color: #0E0E0E;
+    margin-bottom: 28px;
+}

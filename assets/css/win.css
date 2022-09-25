@@ -1,0 +1,26 @@
+
+.win {
+    position: relative;
+    overflow: hidden;
+}
+
+.win .win__background {
+
+}
+
+.win .win__heading {
+    margin: 0px;
+    font-family: 'KyivTypeSans';
+    text-transform: uppercase;
+    font-size: 135px;
+    line-height: 162px;
+    text-align: left;
+    color:white;
+}
+
+.win .win__block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,230 @@
+.articles {
+}
+
+.articles .articles__title {
+    margin-bottom: 0px;
+    font-family: KyivTypeSans;
+    font-size: 68px;
+    line-height: 81px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.articles .articles__content {
+    padding-top: 65px;
+    padding-bottom: 74px;
+}
+
+.articles .articles__header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.articles .articles__statuses {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 49px;
+    padding-bottom: 10px;
+}
+
+.articles .articles__statuses li {
+    margin-left: 24px;
+}
+
+.articles .articles__statuses :first-child {
+    margin: 0;
+}
+
+.articles .articles__statuses-item button {
+    cursor: pointer;
+    border: 0px;
+    padding: 0px;
+    background: none;
+    font-family: 'MontserratRegular';
+    font-size: 22px;
+    line-height: 27px;
+    color: #0E0E0E;
+    padding-bottom: 3px;
+    border-bottom: none;
+    opacity: 0.5;
+}
+
+.articles .articles__statuses-item_active button {
+    border-bottom: 1px dashed #000000;
+    opacity: 1;
+}
+
+.articles .articles__types {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.articles .articles__types li {
+    margin-left: 18px;
+}
+
+.articles .articles__types :first-child {
+    margin: 0;
+}
+
+.articles .types__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 10px 32px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    border-radius: 92px;
+    font-family: 'MontserratBold';
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.articles .types__button > div {
+    width: 40px;
+    height: 40px;
+}
+
+.articles .types__button > span {
+    margin-left: 5px;
+}
+
+.articles .articles__types-item_active .types__button {
+    color:white;
+    background: #000000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.articles .articles__projects {
+    margin-top:50px;
+    list-style: none;
+    margin-bottom: -40px;
+}
+
+.articles .articles__projects-item {
+    margin-bottom: 40px;
+}
+
+.articles .projects-item__wrapper {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.articles .projects-item__wrapper, .articles .projects-item__bg > div {
+    border-radius: 20px;
+}
+
+.articles .projects-item__bg {
+    position: relative;
+    z-index: 1;
+}
+
+.articles .projects-item__bg > div {
+    height: 340px;
+}
+
+.articles .projects-item__bg > div > img {
+    object-fit: cover !important;
+}
+
+.articles .projects-item__filter {
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.articles .projects-item__labels {
+    position: absolute;
+    z-index: 3;
+    top:23px;
+    padding: 0 35px;
+    width: calc(100% - 70px);
+    display: flex;
+    list-style: none;
+}
+
+.articles .projects-item-label:last-child {
+    margin-right: 0px;
+}
+
+.articles .projects-item-label {
+    display: flex;
+    align-items:center;
+    margin-right: 11px;
+    padding: 10px 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 54px;
+}
+
+.articles .projects-item-label > div {
+    width: 20px;
+    height: 20px;
+}
+
+.articles .projects-item-label__text {
+    margin-left: 8px;
+    font-family: 'MontserratBold';
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.articles .project-item__next {
+    position: absolute;
+    z-index: 3;
+    right: 45px;
+    bottom: 32px;
+    width: 10px;
+    height: 10px;
+    transform: translate(100%, -100%);
+}
+
+.articles .projects-item__content {
+    position: absolute;
+    z-index: 3;
+    transform: translateY(-100%);
+    padding: 32px 35px;
+    width: calc(100% - 70px);
+}
+
+.articles .projects-item__title {
+    font-family: 'KyivTypeSans';
+    font-size: 33px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.articles .projects-item__desc {
+    font-family: 'MontserratRegular';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.articles .articles__pagination {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px 40px;
+    display: block;
+    font-family: 'MontserratBold';
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+}

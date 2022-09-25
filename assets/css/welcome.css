@@ -1,0 +1,61 @@
+
+.welcome {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.welcome .background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.welcome .background, .welcome .background > div {
+    height: 100%;
+    width: 100%;    
+}
+
+.welcome .background > div > img {
+    object-fit: cover !important;
+}
+
+.welcome .welcome__heading {
+    margin: 0px;
+    font-family: 'KyivTypeSans';
+    font-size: 78px;
+    text-align: left;
+    color:white;
+}
+
+.welcome .welcome__block {
+    margin-top: 15vh;
+}
+
+.welcome .welcome__headingType {
+    font-family: 'MontserratRegular';
+    font-size: 48px;
+    color:white;
+}
+
+.welcome .welcome__desription {
+    max-width: 508px;
+    margin-top: 36px;
+    margin-bottom: 0px;
+    font-family: 'MontserratRegular';
+    font-size: 24px;
+    text-align: left;
+    color:white;
+}
+
+.welcome .welcome__desription b {
+    color: #FFD401;
+}
+
+.welcome .welcome__button {
+    margin-top: 75px;
+    margin-bottom: 135px;
+}

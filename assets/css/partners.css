@@ -1,0 +1,16 @@
+.partners {
+    background: #000000;
+}
+
+.partners .partners__content {
+    padding-top: 64px;
+    padding-bottom: 87px;
+}
+
+.partners .partners__title {
+    margin-bottom: 46px;
+    font-family: KyivTypeSans;
+    font-size: 68px;
+    line-height: 81px;
+    color: white;
+}

@@ -1,0 +1,66 @@
+@import url('./reset.css');
+@import url(./globals.css);
+@import url('./fonts.css');
+@import url(./navbar.css);
+@import url(./welcome.css);
+@import url(./about.css);
+@import url(./mission.css);
+@import url(./articles.css);
+@import url('./donations.css');
+@import url(./partners.css);
+@import url(./win.css);
+@import url(./contacts.css);
+@import url(./footer.css);
+@import url(pages/home-page.css);
+@import url(pages/article-page.css);
+@import url(pages/team-page.css);
+
+
+#title {
+    letter-spacing: 0.4px;
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1.13636;
+}
+
+#banner {
+    margin: 20px;
+    height: 800px;
+}
+
+#editor {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+.uk-navbar-container {
+    background: transparent !important;
+    font-family: Staatliches;
+}
+
+img:hover {
+    opacity: 1;
+    transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.scroll-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transform: rotate(-90deg);
+    background: black;
+}
+
+.scroll-top  > div {
+    width: 100%;
+    height: 100%;
+}

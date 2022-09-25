@@ -1,0 +1,13 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul {
+    margin:0px;
+    padding:0px;
+}
+
+a {
+    text-decoration: none;
+}

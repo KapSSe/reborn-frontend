@@ -1,0 +1,13 @@
+.home-page .navbar__center, .home-page .navbar__right, .home-page .navbar__menu-item {
+    color: white;
+}
+
+.home-page  .navbar .navbar__menu-item_active { 
+    background: white;
+    color: black;
+}
+
+.navbar .navbar__menu-item_active {
+    cursor: default;
+    opacity: 1;
+}
