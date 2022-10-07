@@ -7,10 +7,10 @@ const Mission = ({ sectionMission, missions, missionSlides }) => {
     <section className="mission">
       <div className="mission__content uk-container uk-container-large">
         <h2 className="mission__title">{sectionMission.attributes.title}</h2>
-        <div className="uk-grid uk-grid-medium">
+        <div className="mission-grid uk-grid uk-grid-medium">
           {missions.map((missionItem, i) => {
             return (
-              <div className="uk-width-1-3" key={i}>
+              <div className="mission-grid__item uk-width-1-3" key={i}>
                 <div className="mission-card">
                   <div className="mission-card__image">
                     <NextImage image={missionItem.attributes.image} />
@@ -36,7 +36,7 @@ const Mission = ({ sectionMission, missions, missionSlides }) => {
           data-autoplay-interval={missionSlides[0].attributes.autoplayInterval}
         >
           <ul
-            className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m"
+            className="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l"
             style={{
               willChange: "transform",
               transform: "translate3d(0px, 0px, 0px)",

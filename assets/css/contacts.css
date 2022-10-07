@@ -59,3 +59,35 @@
     color: #0E0E0E;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1200px) {
+    .contacts .contacts__content {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .contacts .contacts__heading {
+        margin-bottom: 25px;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .contacts .contacts__address-block {
+        padding: 32px 20px;
+    }
+
+    .contacts .address-block__text {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .contacts .address-block__copy{
+        margin-left: 25px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .contacts .button-block__button{
+        font-size: 22px;
+    }
+}

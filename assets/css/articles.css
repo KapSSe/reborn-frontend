@@ -228,3 +228,51 @@
     background: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+    .articles .articles__header{
+        margin-bottom: 25px;
+    }
+
+    .articles .articles__content {
+        padding-bottom: 65px;
+    }
+
+    .articles .articles__projects {
+        margin-top: 35px;
+    }
+
+    .articles .articles__projects-item {
+        margin-bottom: 30px;
+    }
+
+    .articles .articles__title {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .articles .articles__statuses-item button {
+        font-size: 20px;
+    }
+
+    .articles .types__button {
+        padding: 8px 32px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .articles .types__button > div {
+        width: 30px;
+        height: 30px;
+    }
+
+    .articles .projects-item__title {
+        font-size: 22px;
+        line-height: 10px;
+    }
+
+    .articles .projects-item__desc{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

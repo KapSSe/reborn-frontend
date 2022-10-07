@@ -44,7 +44,7 @@
     color: black;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-size: 22.2364px;
+    font-size: 22px;
     line-height: 27px;
 }
 
@@ -154,4 +154,82 @@
     font-family: 'MontserratRegular';
     font-size: 20px;
     line-height: 32px;
+}
+
+@media screen and (max-width: 1200px) {
+    .donations .donations__content {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .donations .donations__title {
+        margin-bottom: 25px;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .donations .donations__menu-item button {
+        padding: 10px 35px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .donations .donations__submenu-item button {
+        padding: 10px 35px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .donations .donations__desc {
+        margin-top: 25px;
+    }
+
+    .donations .donations__mobilepay-desc {
+        padding: 25px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .donations .donations__button {
+        margin-left: 56px;
+        padding: 20px 85px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .donations .donations__menu-item, .donations .donations__submenu-item {
+        margin-left: 18px;
+    }
+
+    .donations__menu :first-child, .donations__submenu :first-child {
+        margin-left: 0px;
+    }
+
+    .donations .donations__banks-desc {
+        margin-top: 25px;
+    }
+
+    .donations .donations__banks-desc {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .donations .donations__banks-guide {
+        margin-top: 25px;
+        padding: 25px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .donations .donations__crypto-desc {
+        margin-top: 25px;
+        padding: 25px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .donations .donations__copy {
+        width: 18px;
+        height: 18px;
+    }
 }

@@ -50,3 +50,43 @@
     display: block;
     transform: scale(1.5);
 }
+
+@media screen and (max-width: 1200px) {
+    .mission .mission__content {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .mission .mission__title { 
+        margin-bottom: 10px;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .mission-card .mission-card__image {
+        width: 68px;
+        height: 68px;
+    }
+
+    .mission-card .mission-card__title {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 0px
+    }
+
+    .mission-card .mission-card__description {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        padding: 0 40px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .mission-grid > .mission-grid__item {
+        padding-top: 30px;
+    }
+
+    .mission-grid__item {
+        width: 50%;
+    }
+}

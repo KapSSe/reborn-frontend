@@ -59,3 +59,30 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer .footer__content {
+        padding: 50px 0px;
+    }
+
+    .footer .navigation-footer__item {
+        margin-right: 35px;
+    }
+
+    .footer .uk-link-reset.navigation-footer__link{
+        font-size: 20px;
+    }
+
+    .footer .footer__social-footer {
+        margin-top: 35px;
+    }
+
+    .footer .social-footer__item {
+        margin-left: 32px;
+    }
+
+    .footer .footer__description {
+        margin-top: 35px;
+        font-size: 18px;
+    }
+}

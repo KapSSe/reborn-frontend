@@ -4,10 +4,6 @@
     overflow: hidden;
 }
 
-.win .win__background {
-
-}
-
 .win .win__heading {
     margin: 0px;
     font-family: 'KyivTypeSans';
@@ -23,4 +19,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1200px) {
+    .win .win__heading {
+        font-size: 86px;
+        line-height: 90px;
+    }
 }

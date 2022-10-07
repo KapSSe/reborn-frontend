@@ -20,7 +20,25 @@
 .about .about__description {
     font-family: MontserratRegular;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 26px;
     text-align: left;
     color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .about .about__content{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .about .about__title {
+        margin-bottom: 20px;
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .about .about__description{
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
