@@ -27,3 +27,35 @@
         line-height: 62px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .partners .partners__title {
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .partners .partners__content {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .partners .partners__grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners__grid-item {
+        width: 75%;
+        margin-bottom: 30px;
+    }
+    .partners .partners__title{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partners__grid-item{
+        width: 100%;
+    }
+}

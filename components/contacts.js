@@ -16,8 +16,8 @@ const Contacts = ({ sectionContacts }) => {
           <h1 className="contacts__heading">
             {sectionContacts.attributes.title}
           </h1>
-          <div className="uk-grid uk-grid-medium">
-            <div className="uk-width-2-3">
+          <div className="contacts__grid uk-grid uk-grid-medium">
+            <div className="uk-width-2-3 contacts__grid_text">
               <div className="contacts__address-block">
                 <span className="address-block address-block__text">
                   {sectionContacts.attributes.addressLink}
@@ -30,7 +30,7 @@ const Contacts = ({ sectionContacts }) => {
                 </div>
               </div>
             </div>
-            <div className="uk-width-1-3">
+            <div className="uk-width-1-3 contacts__grid_button">
               <div className="contacts__button-block">
                 <a
                   className="button-block__button"

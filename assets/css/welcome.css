@@ -84,5 +84,35 @@
     .welcome .welcome__button {
         margin-top: 25px;
     }
+    
+    .button a {
+        font-size: 18px;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    .welcome .welcome__block {
+        margin-top: 0px;
+    }
+    .welcome .welcome__heading {
+        font-size: 30px;
+    }
+    .welcome .welcome__headingType {
+        font-size: 24px;
+    }
+    .welcome .welcome__desription {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .button {
+        width: 150px;
+        height: 50px;
+    }
+    .button a {
+        font-size: 16px;
+    }
+    .welcome .welcome__button {
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
 }

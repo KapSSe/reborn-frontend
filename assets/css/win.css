@@ -27,3 +27,22 @@
         line-height: 90px;
     }
 }
+
+@media screen and (max-width: 1024px) { 
+    .win .win__heading {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .win .win__heading {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .win .win__heading {
+        font-size: 34px;
+    }
+}

@@ -193,7 +193,7 @@
     .donations .donations__button {
         margin-left: 56px;
         padding: 20px 85px;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 30px;
     }
 
@@ -231,5 +231,81 @@
     .donations .donations__copy {
         width: 18px;
         height: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .donations .donations__title {
+        margin-bottom: 16px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .donations .donations__menu-item button {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .donations .donations__desc {
+        margin-top: 14px;
+    }
+    .donations .donations__mobilepay-desc {
+        padding: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .donations .donations__button {
+        margin-left: 50px;
+        padding: 9px 60px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .donations .donations__mobilepay {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .donations .donations__button {
+        margin-left: 0px;
+        margin-top:25px;
+    }
+    .donations .donations__submenu-item button {
+        padding: 8px 18px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .donations .donations__banks-desc {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .donations .donations__banks-desc {
+        margin-top: 18px;
+    }
+    .donations .donations__copy {
+        width: 12px;
+        height: 12px;
+    }
+    .donations .donations__banks-guide {
+        margin-top: 16px;
+        padding: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .donations .donations__content {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .donations .donations__title {
+        margin-bottom: 0px;
+    }
+    .donations .donations__menu, .donations .donations__submenu {
+        flex-wrap: wrap;
+    }
+    .donations .donations__menu-item, .donations .donations__submenu-item {
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 15px;
     }
 }

@@ -90,3 +90,40 @@
         width: 50%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .mission .mission__title {
+        margin-bottom: 0px;
+        font-size: 30px;
+        line-height: initial;
+        /* text-align: center; */
+    }
+    .mission-card .mission-card__title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .mission-card .mission-card__description {
+        margin-top: 14px;
+        margin-bottom: 40px;
+        padding: 0 30px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .mission .mission__content {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .mission__slider .uk-slidenav-position, .mission__slider .uk-slidenav {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mission .mission__title {
+        text-align: center;
+    }
+    .mission-grid__item {
+        width: 100%;
+    }
+
+}

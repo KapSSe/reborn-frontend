@@ -21,3 +21,9 @@
     text-rendering: optimizeLegibility;
     src: url("../fonts/Montserrat-Bold.woff") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
  }
+
+ @media screen and (max-width: 768px) {  
+   .footer .footer__navigation-footer {
+      flex-wrap: wrap;
+  }
+ }

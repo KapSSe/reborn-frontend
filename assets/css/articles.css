@@ -34,7 +34,7 @@
 }
 
 .articles .articles__statuses :first-child {
-    margin: 0;
+    margin-left: 0;
 }
 
 .articles .articles__statuses-item button {
@@ -67,7 +67,6 @@
 }
 
 .articles .articles__types :first-child {
-    margin: 0;
 }
 
 .articles .types__button {
@@ -272,7 +271,89 @@
     }
 
     .articles .projects-item__desc{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .articles .articles__header {
+        margin-bottom: 16px;
+    }
+    .articles .articles__title {
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .articles .articles__statuses {
+        padding: 0px;
+    }
+    .articles .articles__statuses-item button {
+        font-size: 16px;
+        padding-bottom: 0;
+    }
+    .articles .articles__content{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .articles .types__button {
+        padding: 6px 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .articles .types__button > div {
+        width: 24px;
+        height: 24px
+    }
+    .articles .articles__projects {
+        margin-top: 24px;
+    }
+    .articles .projects-item__labels {
+        top: 15px;
+        padding: 0 25px;
+    }
+    .articles .projects-item__title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .articles .projects-item__content {
+        padding: 32px 25px;
+    }
+    .articles .projects-item__desc {
+        font-size: 14px;
+    }
+    .articles .project-item__next {
+        right: 30px;
+        bottom: 30px;
+        width: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .articles .articles__header {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0px;
+    }
+    .articles .articles__statuses {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .articles__projects-item {
+        width: 100%;
+    }
+    .articles__types {
+        flex-wrap: wrap;
+    }
+    .articles .articles__types li {
+        margin-top:15px;
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .articles .projects-item__labels {
+        flex-wrap: wrap;
+    }
+    .articles .projects-item-label {
+        margin-top: 10px;
     }
 }

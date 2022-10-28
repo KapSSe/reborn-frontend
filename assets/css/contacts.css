@@ -88,6 +88,60 @@
     }
 
     .contacts .button-block__button{
-        font-size: 22px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts .contacts__content {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .contacts .contacts__heading {
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .contacts .contacts__address-block {
+        padding: 20px;
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .contacts .address-block__text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .contacts .address-block__copy {
+        margin-left: 10px;
+        width: 18px;
+        height: 18px;
+    }
+    .contacts .button-block__button {
+        padding: 20px 35px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .contacts .contacts__grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts .contacts__grid_text {
+        width: 100%;
+    }
+    .contacts .contacts__grid_button {
+        width: 100%;
+    }
+    .contacts .contacts__button-block {
+        margin-top: 25px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .contacts .contacts__address-block {
+        width: auto;
     }
 }
