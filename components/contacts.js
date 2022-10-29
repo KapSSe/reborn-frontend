@@ -32,12 +32,11 @@ const Contacts = ({ sectionContacts }) => {
             </div>
             <div className="uk-width-1-3 contacts__grid_button">
               <div className="contacts__button-block">
-                <a
-                  className="button-block__button"
-                  href={"mailto:" + sectionContacts.attributes.addressLink}
-                >
-                  {sectionContacts.attributes.buttonText}
-                </a>
+                <button className="button button-block__button">
+                  <a href={"mailto:" + sectionContacts.attributes.addressLink}>
+                    {sectionContacts.attributes.buttonText}
+                  </a>
+                </button>
               </div>
             </div>
           </div>

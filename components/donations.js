@@ -50,13 +50,15 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
                   href={sectionDonation.attributes.donationsData.donationLink}
                   passHref
                 >
-                  <a className="donations__button">
-                    {
-                      sectionDonation.attributes.donationsData.types[
-                        selectedDonation
-                      ].button
-                    }
-                  </a>
+                  <button className="button donations__button">
+                    <a>
+                      {
+                        sectionDonation.attributes.donationsData.types[
+                          selectedDonation
+                        ].button
+                      }
+                    </a>
+                  </button>
                 </Link>
               </div>
             ) : selectedDonation === 1 ? (
@@ -121,7 +123,9 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
                       )}
                       className="donations donations__copy"
                     >
-                      <NextImage image={sectionContacts.attributes.buttonIcon} />
+                      <NextImage
+                        image={sectionContacts.attributes.buttonIcon}
+                      />
                     </span>
                     <br />
                     <span>
@@ -162,7 +166,9 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
                       )}
                       className="donations donations__copy"
                     >
-                      <NextImage image={sectionContacts.attributes.buttonIcon} />
+                      <NextImage
+                        image={sectionContacts.attributes.buttonIcon}
+                      />
                     </span>
                     <br />
                     <span>
@@ -205,7 +211,9 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
                             : ""
                         }`}
                       >
-                        <button onClick={setSelectedDonationCrypto.bind(this, k)}>
+                        <button
+                          onClick={setSelectedDonationCrypto.bind(this, k)}
+                        >
                           {subtype.name}
                         </button>
                       </li>
@@ -230,7 +238,9 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
                       )}
                       className="donations donations__copy"
                     >
-                      <NextImage image={sectionContacts.attributes.buttonIcon} />
+                      <NextImage
+                        image={sectionContacts.attributes.buttonIcon}
+                      />
                     </span>
                   </div>
                 ) : null}

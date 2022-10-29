@@ -15,6 +15,12 @@
 .footer .navigation-footer__item {
     margin-right: 44px;
     color: #FFFFFF;
+    opacity: 0.6;
+    transition: opacity .478s ease;
+}
+
+.footer .navigation-footer__item:hover {
+    opacity: 1;
 }
 
 .footer .navigation-footer__link {

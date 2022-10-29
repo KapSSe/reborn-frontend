@@ -48,7 +48,7 @@
     justify-content: center;
 }
 
-.contacts .button-block__button {
+/* .contacts .button-block__button {
     padding: 24px 55px;
     background: #FFD401;
     box-shadow: 0px 0px 22px #FFE30A;
@@ -58,7 +58,7 @@
     line-height: 29px;
     color: #0E0E0E;
     text-decoration: none;
-}
+} */
 
 @media screen and (max-width: 1200px) {
     .contacts .contacts__content {
@@ -87,9 +87,9 @@
         height: 25px;
     }
 
-    .contacts .button-block__button{
+    /* .contacts .button-block__button{
         font-size: 18px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1024px) {
@@ -120,9 +120,7 @@
         height: 18px;
     }
     .contacts .button-block__button {
-        padding: 20px 35px;
-        font-size: 16px;
-        line-height: 18px;
+        width: 200px;
     }
     .contacts .contacts__grid {
         display: flex;
