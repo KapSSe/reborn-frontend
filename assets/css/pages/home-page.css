@@ -11,3 +11,9 @@
     cursor: default;
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) { 
+    .home-page .navbar__mobile { 
+        background: none;
+    }
+}

@@ -101,12 +101,17 @@
     }
     .navbar__mobile {
         display: block;
-        background: black;
+    }
+    .navbar .navbar__logo {
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media screen and (max-width: 768px) { 
-
+    .uk-navbar-right.navbar__mobile .uk-navbar-toggle {
+        transform: scale(0.8);
+    }
 }
 
 @media screen and (max-width: 480px) {

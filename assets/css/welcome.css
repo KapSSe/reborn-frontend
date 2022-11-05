@@ -86,7 +86,8 @@
 
 @media screen and (max-width: 1024px) {
     .welcome .welcome__block {
-        margin-top: 30px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
     .welcome .welcome__heading {
         font-size: 30px;
@@ -107,5 +108,8 @@
     .welcome .welcome__button {
         margin-top: 15px;
         margin-bottom: 70px;
+    }
+    .welcome .background, .welcome .background > div {
+        filter: brightness(0.7);
     }
 }

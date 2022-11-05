@@ -8,9 +8,7 @@ const Donations = ({ sectionDonation, sectionContacts }) => {
   const [selectedDonationCrypto, setSelectedDonationCrypto] = useState(0)
 
   const copyText = (text) => {
-    if (typeof window !== "undefined") {
-      window.navigator.clipboard.writeText(text).then(() => {})
-    }
+    window.prompt("Copy text?", text)
   }
 
   return (

@@ -132,6 +132,10 @@
         font-size: 16px;
         line-height: 22px;
     }
+    
+    .team-page .navbar__mobile .uk-navbar-toggle { 
+        background: black;
+    }
 }
 
 @media screen and (max-width: 768px) { 

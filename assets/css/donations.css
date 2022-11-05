@@ -118,6 +118,7 @@
     font-size: 20px;
     line-height: 32px;
     color:#000000;
+    overflow-wrap: anywhere;
 }
 
 .donations .donations__banks-guide {
@@ -149,6 +150,7 @@
     font-family: 'MontserratRegular';
     font-size: 20px;
     line-height: 32px;
+    overflow-wrap: anywhere;
 }
 
 @media screen and (max-width: 1200px) {
@@ -274,10 +276,7 @@
     .donations .donations__banks-desc {
         margin-top: 18px;
     }
-    .donations .donations__copy {
-        width: 12px;
-        height: 12px;
-    }
+
     .donations .donations__banks-guide {
         margin-top: 16px;
         padding: 20px;

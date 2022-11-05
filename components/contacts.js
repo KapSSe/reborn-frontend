@@ -2,11 +2,7 @@ import NextImage from "./image"
 
 const Contacts = ({ sectionContacts }) => {
   const copyText = () => {
-    if (typeof window !== "undefined") {
-      window.navigator.clipboard
-        .writeText(sectionContacts.attributes.addressLink)
-        .then(() => {})
-    }
+    window.prompt("Copy text?", sectionContacts.attributes.addressLink)
   }
 
   return (
